@@ -12,6 +12,8 @@ import { HttpClientModule} from '@angular/common/http';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ProductsByCategoryComponent } from './components/products-by-category/products-by-category.component';
+  
+ 
 
 @NgModule({
   declarations: [
@@ -19,8 +21,10 @@ import { ProductsByCategoryComponent } from './components/products-by-category/p
     HomeComponent,
     MedicinesHomeComponent,
     TopDealsComponent,
-    ProductsByCategoryComponent
+    ProductsByCategoryComponent,
+
   ],
+
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -30,6 +34,7 @@ import { ProductsByCategoryComponent } from './components/products-by-category/p
     HttpClientModule,
     CarouselModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
